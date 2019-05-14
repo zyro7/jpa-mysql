@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainControler">
+   <children>
+      <StackPane prefHeight="63.0" prefWidth="600.0">
+         <children>
+            <Label text="CampingBike Vell Emporda">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Label text="Nom:              " />
+            <TextField fx:id="nom" alignment="TOP_LEFT" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Label text="Tipus:             " />
+            <TextField fx:id="tipus" alignment="TOP_LEFT" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Label text="Temps:           " />
+            <TextField fx:id="temps" alignment="TOP_LEFT" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Label text="Link:               " />
+            <TextField fx:id="link" alignment="TOP_LEFT" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Label text="Imatge:          " />
+            <TextField fx:id="imatge" alignment="TOP_LEFT" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Label text="Opinió:           " />
+            <TextField fx:id="opinio" alignment="TOP_LEFT" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Label text="km:                " />
+            <TextField fx:id="km" alignment="TOP_LEFT" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="inserir" mnemonicParsing="false" onAction="#inserir" text="Inserir comentari" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
